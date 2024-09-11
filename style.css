@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+/* Styling the navigation and heading */
+nav {
+    background-color: rgb(22, 25, 51);
+    color: white;
+    display: grid;
+    justify-items: center;
+    padding: 2% 0;
+}
+
+.header_center .nav-heading {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Flexbox for controls in a single line */
+.control-line {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 1% 0;
+}
+
+/* Button styles */
+.main-button {
+    background-color: #ff6f61;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.main-button:hover {
+    background-color: #ff4f41;
+}
+
+/* Algorithm button styles */
+.algo-button {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.algo-button:hover {
+    background-color: #ff6f61;
+}
+
+/* Style for disabled algorithm buttons */
+.algo-button:disabled {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  cursor: not-allowed;
+}
+
+/* Add a similar style for the main button */
+.main-button:disabled {
+  background-color: #ff6f61;
+  color: white;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+/* Range slider styling */
+.array-inputs input[type="range"] {
+    -webkit-appearance: none;
+    width: 150px;
+    height: 6px;
+    background: #ff6f61;
+    outline: none;
+    border-radius: 5px;
+}
+
+.array-inputs input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: white;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.array-inputs label {
+    color: white;
+    margin-right: 10px;
+    font-size: 1.2rem;
+}
+
+/* Complexity section layout */
+.complexity-section {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px 0;
+}
+
+.complexity-box {
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 40%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.complexity-box h3 {
+    font-size: 1.5rem;
+    text-decoration: underline;
+    margin-bottom: 15px;
+    color: #222;
+}
+
+.Pair_Definitions {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.Pair_Definitions p {
+    font-size: 1.1rem;
+    color: #333;
+}
+
+/* Array container for the sorting visualization */
+#array_container {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
