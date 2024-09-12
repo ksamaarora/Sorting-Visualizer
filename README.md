@@ -4,6 +4,10 @@ Visualization Tool for Sorting Algorithms
 ## Live Demo
 Try the live version of the Sorting Visualizer: [Sorting Visualizer live version](https://ksamaarora.com/Sorting-Visualizer/)
 
+![Sorting Website](/assets/readme_images/SortingVisualizer.png)
+
+![Sorting Website](/assets/readme_images/SortingVisualizer(2).png)
+
 This project is a **Sorting Visualizer** that demonstrates the inner workings of various sorting algorithms using a visual representation. The aim is to help people understand how different sorting algorithms compare in terms of efficiency, speed, and the steps they take to sort an array of elements.
 
 ## Features
